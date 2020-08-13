@@ -32,16 +32,6 @@ app.get('/help', (req, res) => {
         'title': 'Help-me!!!'
     })
 })
-// app.get('/help',(req, res) => {
-//     res.send([{
-//         name: 'Ashwanth'
-//     },{
-//         name: 'Ranjith'
-//     }]);
-// })
-// app.get('/about',(req, res) => {
-//     res.send("<h1>About!!!</h1>");
-// })
 
 app.get('/weather',(req, res) => {
     if(!req.query.address) {
